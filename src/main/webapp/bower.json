@@ -1,0 +1,48 @@
+{
+  "name": "spring-boot-data-security-angularjs",
+  "homepage": "http://www.techne.com.br",
+  "authors": [
+    "CronosPaas"
+  ],
+  "description": "spring-boot-data-security-angularjs",
+  "main": "",
+  "keywords": [
+    "spring-boot",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "plugins/",
+    "test",
+    "tests",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "angular-justgage": "1.0.1",
+    "angular-ui-select": "^0.17.0",
+    "angular-translate": "^2.11.0",
+    "angular-translate-loader-static-files": "^2.11.0",
+    "angular-translate-storage-cookie": "^2.11.0",
+    "angular-translate-storage-local": "^2.11.0",
+    "angular-translate-handler-log": "^2.11.0",
+    "angular-dynamic-locale": "^0.1.32",
+    "angular-ui-notification": "^0.2.0",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37",
+    "angular-ui-router": "^0.2.18",
+    "angular-cookies": "^1.5.5",
+    "angular-resource": "^1.5.5",
+    "angular-sanitize": "^1.5.5",
+    "angular-bootstrap": "^1.3.2",
+    "ui-select-infinity": "^0.1.6",
+    "Chart.js": "^2.1.3",
+    "angular-chart": "^0.5.0",
+    "ngMask": "angular-mask#^3.0.16",
+    "angular-i18n": "^1.5.5",
+    "angular-ui-select3": "ui-select#*",
+    "css-treeview": "purecss-treeview#*"
+  }
+}

@@ -1,0 +1,79 @@
+/**
+*** ------------------------------------------
+*** HELPERS - Estilos que podem ajudar o posicionamento de elementos
+*** ------------------------------------------
+**/
+
+/* Margens */
+.margem-esquerda5 { margin-left: 5px!important; }
+.margem-esquerda8 { margin-left: 8px!important; }
+.margem-esquerda10 { margin-left: 10px!important; }
+.margem-esquerda12 { margin-left: 12px!important; }
+.margem-esquerda20 { margin-left: 20px!important; }
+.margem-esquerda25 { margin-left: 25px!important; }
+.margem-esquerda30 { margin-left: 30px!important; }
+.margem-esquerda40 { margin-left: 40px!important; }
+.margem-esquerda50 { margin-left: 50px!important; }
+.margem-esquerda60 { margin-left: 60px!important; }
+.margem-esquerda70 { margin-left: 70px!important; }
+.margem-esquerda80 { margin-left: 80px!important; }
+.margem-esquerda90 { margin-left: 90px!important; }
+.margem-esquerda100 { margin-left: 100px!important; }
+.margem-esquerda120 { margin-left: 120px!important; }
+.margem-esquerda140 { margin-left: 140px!important; }
+.margem-esquerda160 { margin-left: 160px!important; }
+.margem-esquerda180 { margin-left: 180px!important; }
+.margem-esquerda200 { margin-left: 200px!important; }
+/**/
+.margem-direita5 { margin-right: 5px!important; }
+.margem-direita10 { margin-right: 10px!important; }
+.margem-direita12 { margin-right: 12px!important; }
+.margem-direita15 { margin-right: 15px!important; }
+.margem-direita20 { margin-right: 20px!important; }
+.margem-direita30 { margin-right: 30px!important; }
+.margem-direita40 { margin-right: 40px!important; }
+.margem-direita45 { margin-right: 45px!important; }
+.margem-direita50 { margin-right: 50px!important; }
+.margem-direita60 { margin-right: 60px!important; }
+.margem-direita70 { margin-right: 70px!important; }
+.margem-direita80 { margin-right: 80px!important; }
+.margem-direita90 { margin-right: 90px!important; }
+.margem-direita100 { margin-right: 100px!important; }
+.margem-direita120 { margin-right: 120px!important; }
+.margem-direita140 { margin-right: 140px!important; }
+.margem-direita160 { margin-right: 160px!important; }
+.margem-direita180 { margin-right: 180px!important; }
+.margem-direita200 { margin-right: 200px!important; }
+/**/
+.margem-cima5 { margin-top: 5px!important; }
+.margem-cima8 { margin-top: 8px!important; }
+.margem-cima10 { margin-top: 10px!important; }
+.margem-cima15 { margin-top: 15px!important; }
+.margem-cima20 { margin-top: 20px!important; }
+.margem-cima25 { margin-top: 25px!important; }
+.margem-cima30 { margin-top: 30px!important; }
+.margem-cima40 { margin-top: 40px!important; }
+.margem-cima50 { margin-top: 50px!important; }
+.margem-cima60 { margin-top: 60px!important; }
+.margem-cima70 { margin-top: 70px!important; }
+.margem-cima80 { margin-top: 80px!important; }
+.margem-cima90 { margin-top: 90px!important; }
+.margem-cima100 { margin-top: 100px!important; }
+.margem-cima110 { margin-top: 110px!important; }
+.margem-cima120 { margin-top: 120px!important; }
+.margem-cima130 { margin-top: 130px!important; }
+.margem-cima140 { margin-top: 140px!important; }
+.margem-cima150 { margin-top: 150px!important; }
+.margem-cima160 { margin-top: 160px!important; }
+/**/
+.margem-baixo5 { margin-bottom: 5px!important; }
+.margem-baixo10 { margin-bottom: 10px!important; }
+.margem-baixo20 { margin-bottom: 20px!important; }
+.margem-baixo30 { margin-bottom: 30px!important; }
+.margem-baixo40 { margin-bottom: 40px!important; }
+.margem-baixo50 { margin-bottom: 50px!important; }
+.margem-baixo60 { margin-bottom: 60px!important; }
+.margem-baixo70 { margin-bottom: 70px!important; }
+.margem-baixo80 { margin-bottom: 80px!important; }
+.margem-baixo90 { margin-bottom: 90px!important; }
+.margem-baixo100 { margin-bottom: 100px!important; }

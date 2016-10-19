@@ -1,0 +1,18 @@
+{
+	"name": "cronos-components",
+	"version": "1.0.0",
+	"components": [
+		{
+			"name": "crn-map",
+			"text": "Map",
+			"class": "cpn cpn-map",
+			"templateURL": "${webcontent}/components/templates/map.template.html",
+			"properties": {
+				"onchange": {
+					"removable": true,
+					"type": "event"
+				}
+			}
+		}
+	]
+}

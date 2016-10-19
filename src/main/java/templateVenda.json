@@ -1,0 +1,1065 @@
+[
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "DDFDA021-3104-478B-B8CA-D02358AD40A8",
+		"dataVenda": "{{year}}-{{month}}-01",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611"			
+		},
+		"vendaItens": [
+			{
+				"id": "819E70FA-A9DF-476E-A2E3-5A000C43A88D",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A"					
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "6A98B803-32CB-4BD9-85AF-4B4AC3C632AC",
+		"dataVenda": "{{year}}-{{month}}-02",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611"
+		},
+		"vendaItens": [
+			{
+				"id": "9C4320AA-B0A8-4026-8063-6A4F89C5AEAD",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A"					
+				},
+				"quantidade": 1
+			},
+			{
+				"id": "B0C03C0F-8F26-455C-8E55-B4F37054AA8F",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24"
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{	
+		"_class": "controleEstoque.entity.Venda",
+		"id": "220F1309-8465-43A5-B816-77154327D17E",
+		"dataVenda": "{{year}}-{{month}}-03",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611"
+		},
+		"vendaItens": [
+			{
+				"id": "04807BAC-6008-471E-AFEB-7D39365C586C",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A"
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "44C08F9D-AF30-47A9-8514-2F19E71A5DFC",
+		"dataVenda": "{{year}}-{{month}}-04",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "593FB30F-687C-4485-94B8-A226248C263F",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24",
+					"produto": {
+						"id": "341B6E6E-63C7-4D7A-B699-AAC6E8D593CA",
+						"descricao": "Monitor 20''",
+						"marca": "Samsumg"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 74,
+					"un": "Un",
+					"valorCompra": 100,
+					"valorVenda": 299.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "AADC1FDA-13AE-4A60-8D6F-0DC2042C1E52",
+		"dataVenda": "{{year}}-{{month}}-05",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "D6F95EB6-700E-4021-95ED-7F16E83D2FA7",
+				"estoque": {
+					"id": "7FEB3E6C-A77B-4A1B-BFD5-8248307E6022",
+					"produto": {
+						"id": "5863A249-678E-43CF-97B8-4855547C6161",
+						"descricao": "Mouse 320dpi",
+						"marca": "Maxprint"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 36,
+					"un": "Un",
+					"valorCompra": 3,
+					"valorVenda": 14.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "BC06788E-2665-4A4E-A824-180AAA3AED07",
+		"dataVenda": "{{year}}-{{month}}-06",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "AB13BBA0-CBD3-47C3-8F23-F50A96501B90",
+				"estoque": {
+					"id": "4A1C5339-AEF3-490D-9481-D5C5C7745FE4",
+					"produto": {
+						"id": "5FB07DBA-9A9D-4551-B935-C859B2415B10",
+						"descricao": "Teclado 109 teclas",
+						"marca": "Maxprint"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 83,
+					"un": "Un",
+					"valorCompra": 6,
+					"valorVenda": 14.99
+				},
+				"quantidade": 2
+			},
+			{
+				"id": "B3804485-60DA-425D-9EEE-C2CFB3EC681A",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24",
+					"produto": {
+						"id": "341B6E6E-63C7-4D7A-B699-AAC6E8D593CA",
+						"descricao": "Monitor 20''",
+						"marca": "Samsumg"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 74,
+					"un": "Un",
+					"valorCompra": 100,
+					"valorVenda": 299.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "270FCA2F-5420-49B5-9936-376418344A78",
+		"dataVenda": "{{year}}-{{month}}-07",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "CAA1C0C4-CF30-4D17-BB31-2B0DBB48C185",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24",
+					"produto": {
+						"id": "341B6E6E-63C7-4D7A-B699-AAC6E8D593CA",
+						"descricao": "Monitor 20''",
+						"marca": "Samsumg"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 74,
+					"un": "Un",
+					"valorCompra": 100,
+					"valorVenda": 299.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "22486299-D3C3-4A98-8309-E5C0FD93A9DC",
+		"dataVenda": "{{year}}-{{month}}-08",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "159B66EC-1438-45D2-8858-BD8BA9F8EED3",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "6514AAE6-DC9E-4419-93B9-8DF95792EAE9",
+		"dataVenda": "{{year}}-{{month}}-09",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "1D1FECCF-43A7-4EAD-8408-E34C686882F1",
+				"estoque": {
+					"id": "7FEB3E6C-A77B-4A1B-BFD5-8248307E6022",
+					"produto": {
+						"id": "5863A249-678E-43CF-97B8-4855547C6161",
+						"descricao": "Mouse 320dpi",
+						"marca": "Maxprint"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 36,
+					"un": "Un",
+					"valorCompra": 3,
+					"valorVenda": 14.99
+				},
+				"quantidade": 2
+			},
+			{
+				"id": "85B97C07-0EC5-47E3-85B4-7CA9828A764A",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24",
+					"produto": {
+						"id": "341B6E6E-63C7-4D7A-B699-AAC6E8D593CA",
+						"descricao": "Monitor 20''",
+						"marca": "Samsumg"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 74,
+					"un": "Un",
+					"valorCompra": 100,
+					"valorVenda": 299.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "B9B8247D-2334-4FFF-9513-3F8D41049DA0",
+		"dataVenda": "{{year}}-{{month}}-10",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "F2A99EA7-A268-46D5-95EF-BE7D2EF01B99",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "B95DB343-FC05-4FF8-B86D-4C558C58276F",
+		"dataVenda": "{{year}}-{{month}}-11",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "A1CA7D47-EE9B-4797-9EB0-0A11D7D95AC6",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "E6B2ADC5-FC9C-45FA-8F9B-21FDC44E6A1B",
+		"dataVenda": "{{year}}-{{month}}-12",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "AAEE61B8-E111-48DA-96A6-5ED2DEE131D5",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "4234C8C3-1F23-413C-9CBA-097380FDF0D7",
+		"dataVenda": "{{year}}-{{month}}-13",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "601E1FC7-D7BA-4945-8DA6-00FAB0D3EA5D",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 3
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "4B3A57B9-B75B-460C-9F18-D20D3569D7CF",
+		"dataVenda": "{{year}}-{{month}}-14",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "3EDFC5EE-897F-455B-9878-94D0D794C472",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 3
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "4547E173-B01A-4ABD-A2BD-B7314D7466B1",
+		"dataVenda": "{{year}}-{{month}}-15",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "CA734500-F55D-4B00-B511-2B6CB09796EE",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "80D89301-ACFC-4DD7-A821-9FD84E4A5BDC",
+		"dataVenda": "{{year}}-{{month}}-16",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "8221F5A7-10B0-469E-BAC8-CC05A4601EDB",
+				"estoque": {
+					"id": "4A1C5339-AEF3-490D-9481-D5C5C7745FE4",
+					"produto": {
+						"id": "5FB07DBA-9A9D-4551-B935-C859B2415B10",
+						"descricao": "Teclado 109 teclas",
+						"marca": "Maxprint"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 83,
+					"un": "Un",
+					"valorCompra": 6,
+					"valorVenda": 14.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "3AE74174-978F-419F-A251-95918F89771B",
+		"dataVenda": "{{year}}-{{month}}-17",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "AB154028-0646-4A90-8B32-305F12F5BC4C",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 4
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "424DE387-2D49-4702-8819-F768330FEABB",
+		"dataVenda": "{{year}}-{{month}}-18",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "50DDA91B-32F1-4CB5-AFEC-099EF488BD18",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "D016F4EF-F116-4CF4-89CA-805A3D38ABAF",
+		"dataVenda": "{{year}}-{{month}}-19",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "39A0FF67-770A-4CEF-844B-17E1F8AD5BCC",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "FE679D4D-0AE8-433F-87B8-A466253432A1",
+		"dataVenda": "{{year}}-{{month}}-20",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "F521BF81-D565-4D69-9D67-330DDB867644",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "AF9DB8A7-8625-4266-BB2F-743C1B3B349D",
+		"dataVenda": "{{year}}-{{month}}-21",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "5CEE9FB1-ABC4-4C38-B2FD-C5DA157C85F9",
+				"estoque": {
+					"id": "4C133A0B-131A-400C-AAEB-9F2168BE3682",
+					"produto": {
+						"id": "79952CF6-2AA9-4025-B356-2F391F4F876A",
+						"descricao": "Fonte 300W",
+						"marca": "ChineseTop"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 28,
+					"un": "Un",
+					"valorCompra": 30,
+					"valorVenda": 79.99
+				},
+				"quantidade": 3
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "C27DF4DA-DC67-45B7-A2F7-FBBF4D309602",
+		"dataVenda": "{{year}}-{{month}}-22",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "84E3FD28-3716-4CAF-9FB1-2E6AB166DA2C",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "B9A7455D-8B3D-412F-8C8B-29566F043C6C",
+		"dataVenda": "{{year}}-{{month}}-23",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "56D7A5A6-61F6-4E54-A7F2-9D4E1797AF19",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 1
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "C8250122-3947-4600-B4DB-85BF05CE0ACD",
+		"dataVenda": "{{year}}-{{month}}-24",
+		"cliente": null,
+		"vendaItens": [
+			{
+				"id": "A86A2842-E025-4648-A558-C1C0585134D5",
+				"estoque": {
+					"id": "4A1C5339-AEF3-490D-9481-D5C5C7745FE4",
+					"produto": {
+						"id": "5FB07DBA-9A9D-4551-B935-C859B2415B10",
+						"descricao": "Teclado 109 teclas",
+						"marca": "Maxprint"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 83,
+					"un": "Un",
+					"valorCompra": 6,
+					"valorVenda": 14.99
+				},
+				"quantidade": 7
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "27DD6618-C8F3-443F-A2A0-8BDABBAC8298",
+		"dataVenda": "{{year}}-{{month}}-25",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "020E743F-C475-475B-9F04-B6F8C2EB53D2",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24",
+					"produto": {
+						"id": "341B6E6E-63C7-4D7A-B699-AAC6E8D593CA",
+						"descricao": "Monitor 20''",
+						"marca": "Samsumg"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 74,
+					"un": "Un",
+					"valorCompra": 100,
+					"valorVenda": 299.99
+				},
+				"quantidade": 3
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "EA7D95B4-F072-4912-8738-6A8C0C64AAE1",
+		"dataVenda": "{{year}}-{{month}}-26",
+		"cliente": {
+			"id": "304BF4AB-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Robson Atirde",
+			"dataNascimento": 334800000000,
+			"cpf": "696.867.123-28",
+			"endereco": "Graça",
+			"cidade": "Salvador",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "9984C897-0836-4094-A9EF-E421ACD8E858",
+				"estoque": {
+					"id": "43A1933B-CC85-4F16-B9A8-9B5E506C1E24",
+					"produto": {
+						"id": "341B6E6E-63C7-4D7A-B699-AAC6E8D593CA",
+						"descricao": "Monitor 20''",
+						"marca": "Samsumg"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 74,
+					"un": "Un",
+					"valorCompra": 100,
+					"valorVenda": 299.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "585E1CC6-80EF-4039-A9A3-F97211611BEA",
+		"dataVenda": "{{year}}-{{month}}-27",
+		"cliente": null,
+		"vendaItens": [
+			{
+				"id": "A5F4C54F-8C82-4195-BA4C-6BDDBE63C83A",
+				"estoque": {
+					"id": "2B9C550D-66BF-4C16-9FBB-B9ED14D5B95A",
+					"produto": {
+						"id": "7971C809-99FC-47EA-81F9-C9601DF4CECC",
+						"descricao": "Notebook DL-98719",
+						"marca": "Dell"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 87,
+					"un": "Un",
+					"valorCompra": 1000,
+					"valorVenda": 1799.99
+				},
+				"quantidade": 2
+			}
+		]
+	},
+	{
+		"_class": "controleEstoque.entity.Venda",
+		"id": "466E8687-96E6-4E39-BA2C-0C7620D6D6A8",
+		"dataVenda": "{{year}}-{{month}}-28",
+		"cliente": {
+			"id": "304BF43E-0E62-4F4A-8A63-3F22D7AD4611",
+			"nomeCompleto": "Tiago Robertos",
+			"dataNascimento": 397872000000,
+			"cpf": "696.867.572-28",
+			"endereco": "Rua praia da Laranja",
+			"cidade": "Lauro de Freitas",
+			"estado": "Bahia"
+		},
+		"vendaItens": [
+			{
+				"id": "59BFFEA7-7CDF-4E9D-B566-E4276CCB1401",
+				"estoque": {
+					"id": "4A1C5339-AEF3-490D-9481-D5C5C7745FE4",
+					"produto": {
+						"id": "5FB07DBA-9A9D-4551-B935-C859B2415B10",
+						"descricao": "Teclado 109 teclas",
+						"marca": "Maxprint"
+					},
+					"fornecedor": {
+						"id": "8D25CBF2-BAD8-4B1B-8429-0A891116BF4B",
+						"nomeFantasia": "Handy Tech",
+						"razaoSocial": "Handy Tech Comercio de Produtos em Informatica LTDA",
+						"cnpj": "40.180.756/0001-84",
+						"nomeResponsavel": "Ademário"
+					},
+					"quantidade": 83,
+					"un": "Un",
+					"valorCompra": 6,
+					"valorVenda": 14.99
+				},
+				"quantidade": 4
+			}
+		]
+	}
+]

@@ -1,0 +1,178 @@
+<div class="panel panel-yellow component-holder">
+    <div class="panel-heading"> 
+        <h3><i class="fa fa-shopping-cart"></i> Venda</h3> 
+    </div>
+    <div class="container-fluid">
+       
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-datasource" id="crn-datasource-763276"> 
+          <datasource name="Venda" entity="api/rest/controleEstoque/Venda" keys="id" rows-per-page="100" delete-message="Deseja remover?" class=""></datasource> 
+        </div> 
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle margem-cima20" data-component="crn-button" id="crn-button-564202"> 
+          <p>
+            <button class="btn btn-primary btn-sm" type="submit" id="btnNewVenda" onclick="" ng-click="Venda.startInserting()" ng-hide="Venda.inserting || Venda.editing"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="">{{"template.crud.new" | translate}} Venda</span></button> 
+         </p>
+        </div> 
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-grid" id="crn-grid-Venda"> 
+          <div crn-datasource="Venda" class="" ng-hide="Venda.editing || Venda.inserting"> 
+            <table class="table  table-bordered table-hover table-striped"> 
+              <thead> 
+                <tr class="table-header"> 
+                  <th class=""> 
+                    <div class="">
+                       Data Venda 
+                    </div> </th> 
+                  <th class=""> 
+                    <div class="">
+                       Cliente 
+                    </div> </th> 
+                  <th class=""> 
+                    <div class="">
+                       {{"template.crud.actions" | translate}} 
+                    </div> </th> 
+                </tr> 
+              </thead> 
+              <tbody> 
+                <tr class="table-content" ng-repeat="rowData in datasource.data"> 
+                  <td class=""> 
+                    <div class="">
+                       {{rowData.dataVenda | date:'dd/MM/yyyy'}} 
+                    </div> </td> 
+                  <td class=""> 
+                    <div class="">
+                       {{rowData.cliente.nomeCompleto}} 
+                    </div> </td> 
+                  <td class=""> 
+                    <div class=""> 
+                      <button class="btn btn-default btn-sm" type="submit" ng-click="datasource.startEditing(rowData)"><i class="fa fa-edit"></i> Editar</button> 
+                      <button class="btn btn-default btn-sm" type="submit" ng-click="datasource.remove(rowData)"><i class="fa fa-times"></i> Remover</button> 
+                    </div></td> 
+                </tr> 
+              </tbody> 
+            </table> 
+            <div class="table-footer-controls"> 
+              <button class="btn btn-default btn-block btn-clicked" ng-show="datasource.hasNextPage()" ng-click="datasource.nextPage()">{{"template.crud.load_more" | translate}}...</button> 
+            </div> 
+          </div> 
+        </div> 
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-form" id="crn-form-form-Venda"> 
+          <div class="form" ng-show="Venda.editing || Venda.inserting"> 
+            <form crn-datasource="Venda" class=""> 
+              <div class="tool-bar" ng-hide="datasource.editing || datasource.inserting"> 
+                <button class="btn btn-primary" ng-click="datasource.startInserting()"><i class="glyphicon glyphicon-plus-sign"></i></button> 
+                <button class="btn btn-success" ng-click="datasource.startEditing()"><i class="glyphicon glyphicon-edit"></i></button> 
+                <button class="btn btn-primary" ng-disabled="!datasource.hasPrevious()" ng-click="datasource.previous()"><i class="glyphicon glyphicon-chevron-left"></i></button> 
+                <button class="btn btn-primary" ng-disabled="!datasource.hasNext()" ng-click="datasource.next()"><i class="glyphicon glyphicon-chevron-right"></i></button> 
+                <button class="btn btn-primary" ng-click="datasource.remove()"><i class="glyphicon glyphicon-trash"></i></button> 
+              </div> 
+              
+              <fieldset ng-disabled="!datasource.editing &amp;&amp; !datasource.inserting"> 
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 ">
+                        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-textinput" id="crn-textinput-dataVenda"> 
+                          <div class="form-group"> 
+                            <label for="textinput-dataVenda" class="">Data Venda</label> 
+                            <div style="position:relative"> 
+                              <input type="text" as-date="" format="DD/MM/YYYY" ng-model="Venda.active.dataVenda" class="form-control" id="textinput-dataVenda" placeholder="Data Venda" required=""> 
+                            </div> 
+                          </div> 
+                        </div> 
+                        
+                        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-textinput" id="crn-textinput-cliente"> 
+                          <div class="form-group"> 
+                            <label for="textinput-cliente" class="">Cliente</label> 
+                            <datasource name="Cliente" entity="api/rest/controleEstoque/Cliente" keys="id" class=""></datasource> 
+                            <select ng-model="Venda.active.cliente" class="form-control" id="textinput-cliente" ng-options="opt as opt.nomeCompleto for opt in Cliente.data track by opt.id"> <option value="">None</option> </select> 
+                          </div> 
+                        </div> 
+                    </div>
+                </div> 
+                <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-textinput" id="crn-textinput-produto"> 
+                  <div class="form-group well"> 
+                    <div class="row">       
+                        <div class="col-sm-3"> 
+                          <label for="textinput-produto" class="">Produto</label> 
+                          <datasource name="Estoque" entity="api/rest/controleEstoque/Estoque" keys="id" class=""></datasource> 
+                          <select ng-model="Venda.active.tempEstoque" class="form-control" id="textinput-temestoque" ng-options="opt as opt.produto.descricao for opt in Estoque.data"> <option value="">None</option> </select> 
+                        </div>
+                        <div class="col-sm-2"> 
+                          <label for="textinput-produto" class="">Quantidade</label> 
+                          <input type="number" ng-model="Venda.active.tempQtd" min="0" max="{{Venda.active.tempEstoque.quantidade}}" class="form-control" id="textinput-tempqtd" placeholder="Qtd"> 
+                        </div> 
+                        <div class="col-sm-1"> 
+                            <p class="margem-cima25">
+                              <label for="textinput-produtoa" class="">&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                              <button class="btn btn-primary" ng-click="addVendaItem(Venda.active.tempEstoque, Venda.active.tempQtd)"><i class="glyphicon glyphicon-plus-sign"></i></button>
+                            </p>
+                        </div>
+                        <div class="col-sm-2" ng-show="Venda.active.tempEstoque.valorVenda &amp;&amp; Venda.active.tempQtd"> 
+                          <h1> R$ {{Venda.active.tempEstoque.valorVenda * Venda.active.tempQtd | number: 2 }} </h1> 
+                        </div>
+                        <div class="col-sm-3">   
+                            
+                        <h1 ng-show="Venda.editing || Venda.inserting">R$ {{getTotalVenda() | number: 2}}</h1>
+            
+                        </div>
+                </div>
+                  </div> 
+                </div> 
+                <div class=""></div> 
+                <!-- itens adicionados --> 
+                <div class="form-group"> 
+                  <table class="table  table-bordered table-hover table-striped"> 
+                    <thead> 
+                      <tr class="table-header"> 
+                        <th class=""> 
+                          <div class="">
+                             Produto 
+                          </div> </th> 
+                        <th class=""> 
+                          <div class="">
+                             Quantidade 
+                          </div> </th> 
+                        <th class=""> 
+                          <div class="">
+                             Valor total 
+                          </div> </th> 
+                        <th class=""> 
+                          <div class=""> 
+                          </div> </th> 
+                      </tr> 
+                    </thead> 
+                    <tbody> 
+                      <tr class="table-content" ng-repeat="rowData in Venda.active.vendaItens"> 
+                        <td class=""> 
+                          <div class="">
+                             {{rowData.estoque.produto.descricao }} 
+                          </div> </td> 
+                        <td class=""> 
+                          <div class="">
+                             {{rowData.quantidade}} 
+                          </div> </td> 
+                        <td class=""> 
+                          <div class="">
+                             R$ {{rowData.estoque.valorVenda * rowData.quantidade | number: 2}} 
+                          </div> </td> 
+                        <td class=""> 
+                          <div class=""> 
+                            <button class="btn btn-default btn-sm" type="submit" ng-click="removeVendaItem(rowData)"><i class="fa fa-times"></i> Remover</button> 
+                          </div></td> 
+                      </tr> 
+                    </tbody> 
+                  </table> 
+                </div> 
+                <!-- itens adicionados fim --> 
+              </fieldset> 
+              <div class="active-bar pull-right margem-baixo20" ng-hide="!datasource.editing &amp;&amp; !datasource.inserting"> 
+                <button class="btn btn-success btn-sm" ng-click="fecharVenda()">Salvar</button> 
+                <button class="btn btn-danger btn-sm" ng-click="datasource.cancel()">Cancelar</button> 
+              </div> 
+            </form> 
+          </div> 
+        </div> 
+        <div class=""></div>
+    </div>
+</div>

@@ -1,0 +1,292 @@
+<div class="component-holder ng-binding ng-scope" data-component="crn-sidebar" id="crn-sidebar-751554"> 
+  <nav class="navbar navbar-default"> 
+    <div class="container-fluid"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <div class="navbar-header"> 
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+        
+                    <a class="navbar-brand" href="#/home"><img height="auto" width="180" class="left" src="img/logo-estoque.png">  </a>
+                   
+             
+      </div> 
+      <!-- Collect the nav links, forms, and other content for toggling --> 
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+        <ul class="nav navbar-nav"> 
+          <li class="component-holder" data-component="crn-sidebar-item"><a href="#/home" class=""><i class="fa fa-lg fa-home"></i><span class="">{{"Home.view.Home" | translate}}</span></a></li> 
+          <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-users fa-lg"></i> <span class="">{{"Home.view.Admin" | translate}}</span> <span class="caret"></span></a> 
+            <ul class="dropdown-menu"> 
+              <li><a href="#/home/admin/users" class="component-holder" data-component="crn-anchor">{{"Home.view.Users" | translate}}</a></li> 
+              <li><a href="#/home/admin/roles" class="component-holder" data-component="crn-anchor">{{"Home.view.Roles" | translate}}</a></li> 
+              <li><a href="#/home/admin/permission" class="component-holder" data-component="crn-anchor">{{"Home.view.Permission" | translate}}</a></li> 
+            </ul> </li> 
+          <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-list-alt"></i> <span class="">{{"Home.view.Cadastro" | translate}}</span> <span class="caret"></span></a> 
+            <ul class="dropdown-menu"> 
+              <li><a href="#/home/logged/fornecedor" class="component-holder" data-component="crn-anchor">{{"Home.view.Fornecedor" | translate}}</a></li> 
+              <li><a href="#/home/logged/cliente" class="component-holder" data-component="crn-anchor">{{"Home.view.Cliente" | translate}}</a></li> 
+              <li><a href="#/home/logged/produto" class="component-holder" data-component="crn-anchor">{{"Home.view.Produto" | translate}}</a></li> 
+              <li><a href="#/home/logged/estoque" class="component-holder" data-component="crn-anchor">{{"Home.view.Estoque" | translate}}</a></li> 
+              <li><a href="#/home/logged/venda" class="component-holder" data-component="crn-anchor">{{"Home.view.Venda" | translate}}</a></li> 
+            </ul> </li> 
+          <li class="component-holder" data-component="crn-sidebar-item"><a href="#/home/logged/venda?start" class=""><i class="glyphicon glyphicon-usd"></i> <span class="">{{"Home.view.Venda" | translate}}</span></a></li> 
+        </ul> 
+        <!-- <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> --> 
+        <ul class="nav navbar-nav navbar-right"> 
+          <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="user-avatar" alt="{{session.name}}" ng-src="{{session.picture || 'img/nophoto.png'}}"> <span class="">{{session.name}}</span> <span class="caret"></span></a> 
+            <ul class="dropdown-menu"> 
+              <li><a class="component-holder" data-toggle="modal" data-target="#modalPassword" data-component="crn-anchor">{{"Home.view.ChangePassword" | translate}}</a></li> 
+              <li ng-click="logout()"><a href="javascript:void(0);"><span class="">{{"Home.view.Logout" | translate}}</span></a></li> 
+            </ul> </li> 
+        </ul> 
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container-fluid --> 
+  </nav> 
+  <div ui-view="" class="container-fluid main-view"> 
+    <div id="page-wrapper"> 
+      <div class="component-holder ng-binding ng-scope" data-component="crn-datasource" id="crn-datasource-924233"> 
+        <datasource name="" entity="" keys="" rows-per-page="100" on-before-create="" on-after-create="" on-before-update="" on-after-update="" on-before-delete="" on-after-delete=""></datasource> 
+      </div> 
+      <div class="row"> 
+        <div class="col-lg-12"> 
+          <h1 class="page-header">Dashboard</h1> 
+        </div> 
+        <!-- /.col-lg-12 --> 
+      </div> 
+      <!-- /.row --> 
+      <div class="row"> 
+        <div class="col-lg-3 col-md-6"> 
+          <div class="panel panel-primary"> 
+            <div class="panel-heading"> 
+              <div class="row"> 
+                <div class="col-xs-3"> 
+                  <i class="fa fa-comments fa-5x"></i> 
+                </div> 
+                <div class="col-xs-9 text-right"> 
+                  <div class="huge">
+                     {{dashboard.totalCliente}} 
+                  </div> 
+                  <div>
+                     {{"Home.view.Clientes" | translate}} 
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+            <a href="#/home/logged/cliente"> 
+              <div class="panel-footer"> 
+                <span class="pull-left">{{"Home.view.Cliente" | translate}}</span> 
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span> 
+                <div class="clearfix"></div> 
+              </div> </a> 
+          </div> 
+        </div> 
+        <div class="col-lg-3 col-md-6"> 
+          <div class="panel panel-green"> 
+            <div class="panel-heading"> 
+              <div class="row"> 
+                <div class="col-xs-3"> 
+                  <i class="fa fa-tasks fa-5x"></i> 
+                </div> 
+                <div class="col-xs-9 text-right"> 
+                  <div class="huge">
+                     {{dashboard.totalFornecedor}} 
+                  </div> 
+                  <div>
+                     {{"Home.view.Fornecedores" | translate}} 
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+            <a href="#/home/logged/fornecedor"> 
+              <div class="panel-footer"> 
+                <span class="pull-left">{{"Home.view.Fornecedor" | translate}}</span> 
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span> 
+                <div class="clearfix"></div> 
+              </div> </a> 
+          </div> 
+        </div> 
+        <div class="col-lg-3 col-md-6"> 
+          <div class="panel panel-yellow"> 
+            <div class="panel-heading"> 
+              <div class="row"> 
+                <div class="col-xs-3"> 
+                  <i class="fa fa-shopping-cart fa-5x"></i> 
+                </div> 
+                <div class="col-xs-9 text-right"> 
+                  <div class="huge">
+                     {{dashboard.totalVenda}} 
+                  </div> 
+                  <div>
+                     {{"Home.view.Vendas" | translate}} 
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+            <a href="#/home/logged/venda?start"> 
+              <div class="panel-footer"> 
+                <span class="pull-left">{{"Home.view.EfetuarVendas" | translate}}</span> 
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span> 
+                <div class="clearfix"></div> 
+              </div> </a> 
+          </div> 
+        </div> 
+        <div class="col-lg-3 col-md-6"> 
+          <div class="panel panel-red"> 
+            <div class="panel-heading"> 
+              <div class="row"> 
+                <div class="col-xs-3"> 
+                  <i class="fa fa-support fa-5x"></i> 
+                </div> 
+                <div class="col-xs-9 text-right"> 
+                  <div class="huge">
+                     {{dashboard.totalProdutoSemEstoque}} 
+                  </div> 
+                  <div>
+                     {{"Home.view.ProdutoSemEstoque" | translate}} 
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+            <a href="#/home/logged/estoque"> 
+              <div class="panel-footer"> 
+                <span class="pull-left">{{"Home.view.Estoque" | translate}}</span> 
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span> 
+                <div class="clearfix"></div> 
+              </div> </a> 
+          </div> 
+        </div> 
+      </div> 
+      <!-- /.row --> 
+      <div class="row"> 
+        <div class="col-lg-8"> 
+          <div class="panel panel-default"> 
+            <div class="panel-heading"> 
+              <i class="fa fa-bar-chart-o fa-fw"></i>{{"Home.view.FaturamentoMes" | translate}} 
+              <div class="pull-right"> 
+              </div> 
+            </div> 
+            <!-- /.panel-heading --> 
+            <div class="panel-body"> 
+              <div id="morris-area-chart"></div> 
+            </div> 
+            <!-- /.panel-body --> 
+          </div> 
+          <!-- /.panel --> 
+          <div class="panel panel-default"> 
+            <div class="panel-heading"> 
+              <i class="fa fa-bar-chart-o fa-fw"></i>{{"Home.view.ValorCompraValorVenda" | translate}} 
+              <div class="pull-right"> 
+              </div> 
+            </div> 
+            <!-- /.panel-heading --> 
+            <div class="panel-body"> 
+              <div class="row"> 
+                <!-- /.col-lg-4 (nested) --> 
+                <div class="col-lg-12"> 
+                  <div id="morris-bar-chart"></div> 
+                </div> 
+                <!-- /.col-lg-8 (nested) --> 
+              </div> 
+              <div class="row"> 
+                <div class="col-lg-12" style="height: 200px;overflow: auto;"> 
+                  <div class="table-responsive"> 
+                    <table class="table table-bordered table-hover table-striped"> 
+                      <thead> 
+                        <tr> 
+                          <th>{{"Home.view.Data" | translate}}</th> 
+                          <th>{{"Home.view.ValorCompra" | translate}} </th> 
+                          <th>{{"Home.view.ValorVenda" | translate}}</th> 
+                        </tr> 
+                      </thead> 
+                      <tbody> 
+                        <tr ng-repeat="rowData in faturamento"> 
+                          <td>{{rowData.dataVenda | date:'dd/MM/yyyy'}}</td> 
+                          <td>{{rowData.valorCompraDia | number : 2}} </td> 
+                          <td>{{rowData.valorVendaDia | number : 2}}</td> 
+                        </tr> 
+                      </tbody> 
+                    </table> 
+                  </div> 
+                  <!-- /.table-responsive --> 
+                </div> 
+              </div> 
+              <!-- /.row --> 
+            </div> 
+            <!-- /.panel-body --> 
+          </div> 
+          <!-- /.panel --> 
+          <!-- /.panel --> 
+        </div> 
+        <!-- /.col-lg-8 --> 
+        <div class="col-lg-4"> 
+          <div class="panel panel-default"> 
+            <div class="panel-heading"> 
+              <i class="fa fa-users fa-fw"></i> {{"Home.view.Admin" | translate}} 
+            </div> 
+            <!-- /.panel-heading --> 
+            <div class="panel-body"> 
+              <div class="list-group"> 
+                <a href="#/home/admin/users" class="list-group-item"> <i class="glyphicon glyphicon-user"></i> {{"Home.view.Users" | translate}} </a> 
+                <a href="#/home/admin/roles" class="list-group-item"> <i class="glyphicon glyphicon-th-large"></i> {{"Home.view.Roles" | translate}} </a> 
+                <a href="#/home/admin/permission" class="list-group-item"> <i class="glyphicon glyphicon-cog"></i> {{"Home.view.Permission" | translate}} </a> 
+              </div> 
+              <!-- /.list-group --> 
+            </div> 
+            <!-- /.panel-body --> 
+          </div> 
+          <!-- /.panel --> 
+          <div class="panel panel-default"> 
+            <div class="panel-heading"> 
+              <i class="fa fa-bar-chart-o fa-fw"></i> {{"Home.view.QuantidadeProdutos" | translate}} 
+            </div> 
+            <div class="panel-body"> 
+              <div id="morris-donut-chart"></div> 
+              <a href="#/home/logged/estoque" class="btn btn-default btn-block">{{"Home.view.Estoque" | translate}}</a> 
+            </div> 
+            <!-- /.panel-body --> 
+          </div> 
+          <!-- /.panel --> 
+          <!-- /.panel .chat-panel --> 
+        </div> 
+        <!-- /.col-lg-4 --> 
+      </div> 
+      <!-- /.row --> 
+    </div> 
+  </div> 
+</div> 
+<div class="modal fade" id="modalPassword"> 
+  <div class="modal-dialog"> 
+    <div class="modal-content"> 
+      <div class="modal-header"> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="{{'Home.view.Close' | translate}}"><span aria-hidden="true">×</span></button> 
+        <h4 class="modal-title">{{"Home.view.ChangePassword" | translate}}</h4> 
+      </div> 
+      <div class="modal-body"> 
+        <form class="form-validation" autocomplete="off" name="form" role="form"> 
+          <div class="text-danger wrapper text-center" ng-show="authError"> 
+          </div> 
+          <div class="list-group list-group-sm"> 
+            <div class="list-group-item"> 
+              <input type="password" class="form-control no-border" id="oldPassword" placeholder="{{'Home.view.Old Password' | translate}}"> 
+            </div> 
+            <div class="list-group-item"> 
+              <input type="password" class="form-control no-border" id="newPassword" placeholder="{{'Home.view.New Password' | translate}}"> 
+            </div> 
+            <div class="list-group-item"> 
+              <input type="password" class="form-control no-border" id="newPasswordConfirmation" placeholder="{{'Home.view.Confirmation' | translate}}"> 
+            </div> 
+          </div> 
+        </form> 
+      </div> 
+      <div class="modal-footer"> 
+        <button class="btn btn-primary" type="submit" ng-click="changePassword()" ng-disabled="form.$invalid || vm.dataLoading">{{"Home.view.ChangePassword" | translate}}</button> 
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{'Home.view.Close' | translate}}</button> 
+      </div> 
+    </div> 
+  </div> 
+</div>

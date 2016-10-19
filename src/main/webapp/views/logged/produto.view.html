@@ -1,0 +1,108 @@
+<div class="panel panel-info component-holder"> 
+    <div class="panel-heading">
+        <h3><i class="fa fa-cube"> </i> Produto</h3>
+    </div>
+    <div class="container-fluid">
+        
+        
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-datasource" id="crn-datasource-763276"> 
+           <datasource name="Produto" entity="api/rest/controleEstoque/Produto" keys="id" rows-per-page="100" delete-message="Deseja remover?" class=""></datasource> 
+        </div> 
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle margem-cima20" data-component="crn-button" id="crn-button-564202"> 
+          <p>
+            <button class="btn btn-primary btn-sm" type="submit" onclick="" ng-click="Produto.startInserting()" ng-hide="Produto.inserting || Produto.editing"><i class="fa fa-cube" aria-hidden="true"></i> <span class="">{{"template.crud.new" | translate}}</span> Produto</button> 
+         </p>
+        </div> 
+        <div class=""></div> 
+        <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-grid" id="crn-grid-Produto"> 
+          <div crn-datasource="Produto" class="" ng-hide="Produto.editing || Produto.inserting"> 
+            <table class="table  table-bordered table-hover table-striped"> 
+              <thead> 
+                <tr class="table-header"> 
+                   
+                  <th class=""> 
+                    <div class="">Descricao</div>
+                  </th> 
+                  <th class=""> 
+                    <div class="">Marca</div>
+                  </th> 
+                  <th class=""> 
+                  <div class="">{{"template.crud.actions" | translate}}</div>
+                  </th> 
+                </tr> 
+              </thead> 
+              <tbody> 
+                <tr class="table-content" ng-repeat="rowData in datasource.data"> 
+                   
+                  <td class=""> 
+                    <div class="">
+        
+                          {{rowData.descricao}}
+                
+                    </div>
+                  </td> 
+                  <td class=""> 
+                    <div class="">
+        
+                          {{rowData.marca}}
+                
+                    </div>
+                  </td> 
+                  <td class=""> 
+                    <div class=""> 
+                      <button class="btn btn-default btn-sm" type="submit" ng-click="datasource.startEditing(rowData)"><i class="fa fa-edit"></i> Editar</button> 
+                      <button class="btn btn-default btn-sm" type="submit" ng-click="datasource.remove(rowData)"><i class="fa fa-times"></i> Remover</button> 
+                    </div></td> 
+                </tr> 
+              </tbody> 
+            </table> 
+            <div class="table-footer-controls"> 
+              <button class="btn btn-default btn-block btn-clicked" ng-show="datasource.hasNextPage()" ng-click="datasource.nextPage()">{{"template.crud.load_more" | translate}}...</button> 
+            </div> 
+          </div> 
+        </div> 
+        <div class=""></div> 
+        <div class="col-xs-12 col-sm-5 component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-form" id="crn-form-form-Produto"> 
+          <div class="form" ng-show="Produto.editing || Produto.inserting"> 
+            <form crn-datasource="Produto" class=""> 
+              <div class="tool-bar" ng-hide="datasource.editing || datasource.inserting"> 
+                <button class="btn btn-primary" ng-click="datasource.startInserting()"><i class="glyphicon glyphicon-plus-sign"></i></button> 
+                <button class="btn btn-success" ng-click="datasource.startEditing()"><i class="glyphicon glyphicon-edit"></i></button> 
+                <button class="btn btn-primary" ng-disabled="!datasource.hasPrevious()" ng-click="datasource.previous()"><i class="glyphicon glyphicon-chevron-left"></i></button> 
+                <button class="btn btn-primary" ng-disabled="!datasource.hasNext()" ng-click="datasource.next()"><i class="glyphicon glyphicon-chevron-right"></i></button> 
+                <button class="btn btn-primary" ng-click="datasource.remove()"><i class="glyphicon glyphicon-trash"></i></button> 
+              </div> 
+              
+              <fieldset ng-disabled="!datasource.editing &amp;&amp; !datasource.inserting"> 
+                <div class=""></div> 
+                <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-textinput" id="crn-textinput-descricao"> 
+                  <div class="form-group"> 
+                    <label for="textinput-descricao" class="">Descricao</label> 
+        
+                <input type="text" ng-model="Produto.active.descricao" class="form-control" id="textinput-descricao" placeholder="Descricao" required="required"> 
+        
+                  </div> 
+                </div> 
+                <div class=""></div> 
+                <div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-textinput" id="crn-textinput-marca"> 
+                  <div class="form-group"> 
+                    <label for="textinput-marca" class="">Marca</label> 
+        
+                <input type="text" ng-model="Produto.active.marca" class="form-control" id="textinput-marca" placeholder="Marca" required="required"> 
+        
+                  </div> 
+                </div> 
+                <div class=""></div> 
+              </fieldset> 
+              <div class="active-bar pull-right margem-baixo20" ng-hide="!datasource.editing &amp;&amp; !datasource.inserting"> 
+                <button class="btn btn-success btn-sm" ng-click="datasource.post()">Salvar</button> 
+                <button class="btn btn-danger btn-sm" ng-click="datasource.cancel()">Cancelar</button> 
+              </div> 
+            </form> 
+          </div> 
+        </div> 
+        <div class=""></div>
+    </div>
+</div>
